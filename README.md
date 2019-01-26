@@ -1,3 +1,9 @@
+# Install
+
+    npm i @echowuhao/jinja_bin
+
+## Usage
+
 ```
 Usage: jinja_bin -v vars.json -t tmpl_file
 
