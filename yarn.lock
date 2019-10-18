@@ -164,10 +164,17 @@
   resolved "https://registry.yarnpkg.com/@types/nunjucks/-/nunjucks-3.1.2.tgz#2cf954c46d99d1284fffe1719434d8c2fe20760c"
   integrity sha512-XTNp6i9W0SZZb+mamEB2lYLxi+/V+FHFC35vxUYNnng71sbi72ndGLpUfa5O9Si/uE38X08n6GCbUYsxVUDmrw==
 
-"@types/yargs@^12.0.5":
-  version "12.0.13"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.13.tgz#fcc05fb3188f2daefbf2b7643dea5af4c4883163"
-  integrity sha512-CXlavd8Q7ZQkB7sMpx9QKC/B7gUsjtftxMHNr7qGJaDiZZ+Qmhwe4Zt3aS9aXF7cn6BYQuFlKU1UlrebyKsh9g==
+"@types/yargs-parser@*":
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-13.1.0.tgz#c563aa192f39350a1d18da36c5a8da382bbd8228"
+  integrity sha512-gCubfBUZ6KxzoibJ+SCUc/57Ms1jz5NjHe4+dI2krNmU5zCPAphyLJYyTOg06ueIyfj+SaCUqmzun7ImlxDcKg==
+
+"@types/yargs@^13.0.3":
+  version "13.0.3"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-13.0.3.tgz#76482af3981d4412d65371a318f992d33464a380"
+  integrity sha512-K8/LfZq2duW33XW/tFwEAfnZlqIfVsoyRB3kfXdPXYhl0nfM8mmh7GS0jg7WrX2Dgq/0Ha/pR1PaR+BvmWwjiQ==
+  dependencies:
+    "@types/yargs-parser" "*"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
