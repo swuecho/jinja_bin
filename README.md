@@ -4,6 +4,8 @@
 
 ## Usage
 
+render jinja template based on vars 
+
 ```
 Usage: jinja_bin -v vars.json -t tmpl_file
 

@@ -1,13 +1,14 @@
 {
   "name": "@echowuhao/jinja_bin",
-  "version": "0.0.2",
-  "description": "``` Usage: jinja_bin -v vars.json -t tmpl_file",
+  "version": "0.0.3",
+  "description": "Usage: jinja_bin -v vars.json -t tmpl_file",
   "preferGlobal": true,
   "main": "dist/gen.js",
   "bin": {
     "jinja_bin": "dist/gen.js"
   },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,16 +22,13 @@
   },
   "homepage": "https://github.com/swuecho/jinja_bin#readme",
   "dependencies": {
-    "@types/node": "^10.12.18",
-    "@types/nunjucks": "^3.1.0",
-    "@types/yargs": "^12.0.5",
     "nunjucks": "^3.1.7",
     "yargs": "^12.0.5"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.2.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
-    "@babel/preset-env": "^7.2.3",
+    "@types/node": "^10.12.18",
+    "@types/nunjucks": "^3.1.0",
+    "@types/yargs": "^12.0.5",
     "@babel/preset-typescript": "^7.1.0",
     "babel-cli": "^6.26.0",
     "ts-loader": "^5.3.3",
