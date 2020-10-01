@@ -23,7 +23,7 @@
   "homepage": "https://github.com/swuecho/jinja_bin#readme",
   "dependencies": {
     "nunjucks": "^3.1.7",
-    "yargs": "^15.0.2"
+    "yargs": "^16.0.3"
   },
   "devDependencies": {
     "@types/node": "^14.0.14",
